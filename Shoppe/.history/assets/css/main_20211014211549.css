@@ -1,0 +1,15 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #fe6433, #f53e28);
+}
+.header__navbar {
+    display: flex;
+    justify-self: space-between;
+    width: 100%;
+}
+.header__navbar-list {
+    list-style: none;
+}
+.header__navbar-item {
+    display: inline-block;
+}
