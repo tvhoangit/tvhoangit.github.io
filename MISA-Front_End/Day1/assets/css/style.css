@@ -1,0 +1,282 @@
+.m-row {
+    display: block;
+    width: 100%;
+    margin: 50px;
+}
+
+.m-label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.manager {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+
+/* Table */
+.table {
+    flex: 1;
+    margin-bottom: 72px;
+    overflow: auto;
+}
+
+.content-container-table {
+    width: 100%;
+    border-spacing: unset;
+    border: unset;
+    font-size: 13px;
+}
+
+.table-header-row {
+    height: 50px;
+}
+
+.table-body-row {
+    height: 48px;
+}
+
+.table-body-row:nth-child(2n-1) {
+    background-color: #E9EBEE;
+}
+
+.table-col {
+    padding: 0px 8px 0px 10px;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-col:nth-child(1) {
+    width: 100px;
+}
+
+.table-col:nth-child(10) {
+    width: 150px;
+}
+
+.table-col:nth-child(9) {
+    text-align: right;
+}
+
+
+
+
+
+/* form info */
+.info {
+    display: none;
+}
+
+.info__form {
+    width: 50%;
+    border: 1px solid #ddd;
+    margin: 100px auto;
+    border-radius: 4px;
+}
+
+.info__form-embrace {
+    margin: 16px 16px 0px 16px;
+}
+
+.form__header {
+    margin: 20px 0 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form__content {
+
+}
+
+.form__content-image {
+    text-align: center;
+}
+
+.form__image-img {
+    width: 100%;
+    height: 165px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.form__image-select {
+    font-size: 13px;
+    text-align: center;
+}
+
+.form__content-general {
+
+}
+
+.form__general-header {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form__general-container {
+    margin-bottom: 12px;
+}
+
+.form__general-container--contact {
+
+}
+
+.form__general-container--contact-content {
+    margin: 14px 0;
+}
+
+.form__general-container--contact-index {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.form__general-container--contact-select {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form__general-container--contact-text {
+    width: 100%;
+}
+
+.form__general-container--contact-text-add-user {
+    width: 100%;
+}
+
+.form__footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    justify-content: end;
+}
+
+.btn-save {
+    display: flex;
+    align-items: center;
+    margin: 0 16px 0 8px;
+}
+
+.save-icon {
+    padding: 0px 6px;
+    font-size: 12px;
+}
+
+
+/* form add user */
+
+.form__add-user {
+    width: 450px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.form__add-user .m-popup-header {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 24px 24px 0px 24px;
+}
+
+.m-popup-header-title--add-uer {
+    font-size: 20px;
+}
+
+.m-popup-header-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+    color: #f02222;
+    opacity: 0.6;
+    cursor: pointer;
+    border-radius: 0 4px 0 4px;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+.m-popup-header-close:hover {
+    background-color: #ccc;
+}
+
+.m-popup-content {
+    padding: 24px;
+    display: flex;
+}
+
+.m-popup-content-icon {
+    width: 45px;
+    height: 40px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    margin-right: 8px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.m-popup-content-icon-show {
+    color: #78cc18;
+}
+
+.m-popup-footer {
+    margin-right: -1px;
+    height: 60px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+}
+
+.m-popup-footer-btn {
+    margin-right: 24px;
+}
+
+.m-popup-footer-btn .m-btn:first-child {
+    margin: 0 12px;
+}
+
+.form__option {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: showAddUser 0.1s ease-in-out;
+}
+
+@keyframes showAddUser {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
